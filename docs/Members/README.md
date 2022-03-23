@@ -18,3 +18,4 @@ DWDSEC网络安全实验室，在校也称DWDSec社团\
 
 3. BINARY成员
     - [Yaoisss](../Members/Yaoisss.md)
+    - [Juana_2u](../Members/Juana_2u.md)
