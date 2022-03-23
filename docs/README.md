@@ -2,11 +2,14 @@
 home: true
 heroText: 你好， 同学！
 actions:
-  - text: 实验室成员
-    link: /zh/README.md
+  - text: 实验室文章
+    link: /wp/README.md
     type: primary
   - text: 实验室项目
     link: /guide/
+    type: secondary
+  - text: 实验室成员
+    link: /Members/README.md
     type: secondary
 features:
   - title: WEB
