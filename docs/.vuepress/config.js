@@ -10,14 +10,6 @@ module.exports = {
     theme: '@vuepress/theme-default',
     themeConfig: {
       logo: 'https://vuejs.org/images/logo.png',
-      locales: {
-        '/en/': {
-          selectLanguageName: 'English',
-        },
-        '/zh/': {
-          selectLanguageName: '简体中文',
-        },
-        },
-          sidebar: 'auto'
+      sidebar: 'auto'
     }
   }
