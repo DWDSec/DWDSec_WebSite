@@ -3,7 +3,7 @@ home: true
 heroText: 你好， 同学！
 actions:
   - text: 实验室成员
-    link: /zh/Members.md
+    link: /zh/README.md
     type: primary
   - text: 实验室项目
     link: /guide/

@@ -18,5 +18,10 @@ module.exports = {
           selectLanguageName: '简体中文',
         },
         },
+      search: true,
+      searchMaxSuggestions: 10,
+      '/zh/':{
+        sidebar: 'auto'
+      }
     }
   }
