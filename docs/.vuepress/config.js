@@ -14,7 +14,9 @@ module.exports = {
         "/Members/":[
           '/Members/',
           'Yaoisss',
-          'TXPH'
+          'TXPH',
+          'SmallL_U',
+          'Juana_2u'
         ]
       },
       sidebarDepth: 2
