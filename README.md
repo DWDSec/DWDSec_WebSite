@@ -29,3 +29,21 @@ yarn docs:dev
     -- .vuepress    //vuepress资源配置等文件
 
 ```
+
+
+修改好后提交代码
+
+```
+//提交文件到本地缓存区
+
+git add -A
+
+//提交说明信息
+
+git commit -m "update"
+
+//上传
+
+git push
+
+```
