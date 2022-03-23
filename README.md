@@ -19,3 +19,13 @@ yarn docs:dev
 
 ```
 
+目录结构说明
+```
+
+- docs
+    -- Member       //成员介绍
+    -- wp           //实验室文章
+    -- object       //实验室所开设的项目
+    -- .vuepress    //vuepress资源配置等文件
+
+```
