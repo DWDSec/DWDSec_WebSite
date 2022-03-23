@@ -6,7 +6,7 @@ actions:
     link: /wp/README.md
     type: primary
   - text: 实验室项目
-    link: /guide/
+    link: /object/README.md
     type: secondary
   - text: 实验室成员
     link: /Members/README.md

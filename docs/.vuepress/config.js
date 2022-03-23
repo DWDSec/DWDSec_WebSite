@@ -10,6 +10,13 @@ module.exports = {
     theme: '@vuepress/theme-default',
     themeConfig: {
       logo: 'https://vuejs.org/images/logo.png',
-      sidebar: 'auto'
+      sidebar: {
+        "/Members/":[
+          '/Members/',
+          'Yaoisss',
+          'TXPH'
+        ]
+      },
+      sidebarDepth: 2
     }
   }
