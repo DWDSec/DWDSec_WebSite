@@ -13,9 +13,9 @@ actions:
     type: secondary
 features:
   - title: WEB
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
+    details: 涉及操作系统和 Web 系统安全，包括 Web 网站多种语言源代码审计分析（特别是 PHP）、数据库管理和 SQL 操作、Web 漏洞挖掘和利用（如 SQL 注入和 XSS）
   - title: MISC&CRYPTO
-    details: 享受 Vue 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
+    details: MISC涉及杂项，取证，编解码，加解密，隐写，图片处理，压缩包，编程。CRYPTO一般是要想办法识别出密码算法，然后进行暴力破解，或者利用密码体制的漏洞进行破解。当然，也有可能通过构造虚假的哈希值或者数字签名来绕过相应的检测
   - title: BINARY
-    details: VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。
+    details: 理解目标工作原理 + 漏洞挖掘 + 漏洞利用，RE软件代码逆向主要指对软件的结构，流程，算法，代码等进行逆向拆解和分析。主要应用于软件维护，软件破解，漏洞挖掘，恶意代码分析
 ---
