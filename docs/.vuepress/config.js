@@ -16,7 +16,8 @@ module.exports = {
           'Yaoisss',
           'TXPH',
           'SmallL_U',
-          'Juana_2u'
+          'Juana_2u',
+          'nLesxw'
         ]
       },
       sidebarDepth: 2
