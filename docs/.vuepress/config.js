@@ -4,7 +4,7 @@ module.exports = {
     // 站点配置
     lang: 'zh-CN',
     title: 'DWDSEC网络安全实验室',
-    description: '这里是DWDSEC网络安全实验室的自留地。',
+    description: 'Defend With Determination',
   
     // 主题和它的配置
     theme: '@vuepress/theme-default',
