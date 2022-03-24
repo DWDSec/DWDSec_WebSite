@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 你好， 同学！
+heroText: DWDSEC战队
 actions:
   - text: 实验室文章
     link: /wp/README.md

@@ -9,7 +9,7 @@ module.exports = {
     // 主题和它的配置
     theme: '@vuepress/theme-default',
     themeConfig: {
-      logo: 'https://vuejs.org/images/logo.png',
+      logo: 'http://172.16.4.131:3000/avatars/36bb2f2583d6a92e0c33b9485a5e31b8?size=420',
       sidebar: {
         "/Members/":[
           '/Members/',
