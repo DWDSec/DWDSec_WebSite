@@ -13,7 +13,7 @@ actions:
     type: secondary
 features:
   - title: WEB
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
+    details: 涉及操作系统和 Web 系统安全，包括 Web 网站多种语言源代码审计分析（特别是 PHP）、数据库管理和 SQL 操作、Web 漏洞挖掘和利用（如 SQL 注入和 XSS）
   - title: MISC&CRYPTO
     details: 享受 Vue 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
   - title: BINARY
