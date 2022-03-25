@@ -14,8 +14,11 @@ DWDSEC网络安全实验室，在校也称DWDSec社团\
     - [TXPH](../Members/TXPH.md)
     - [SmallL_U](../Members/SmallL_U.md)
     - [nLesxw](../Members/nLesxw.md)
+    - [HeyAspirin](../Members/HeyAspirin.md)
+    - [KRISS-HDB](../Members/KRISS-HDB.md)
 
 2. MISC成员
+    - [808](../Members/808.md)
 
 3. BINARY成员
     - [Yaoisss](../Members/Yaoisss.md)

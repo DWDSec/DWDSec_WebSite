@@ -9,7 +9,7 @@ module.exports = {
     // 主题和它的配置
     theme: '@vuepress/theme-default',
     themeConfig: {
-      logo: 'http://172.16.4.131:3000/avatars/36bb2f2583d6a92e0c33b9485a5e31b8?size=420',
+      logo: '/Member Avatar/DWDSEC_LOGO.png',
       sidebar: {
         "/Members/":[
           '/Members/',
@@ -17,7 +17,10 @@ module.exports = {
           'TXPH',
           'SmallL_U',
           'Juana_2u',
-          'nLesxw'
+          'nLesxw',
+          '808',
+          'KRISS-HDB',
+          'HeyAspirin'
         ]
       },
       sidebarDepth: 2
