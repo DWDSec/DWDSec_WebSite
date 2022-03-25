@@ -5,7 +5,7 @@
 ::: tip 一只渴望拿到Flag的Web狗
 :::
 
-担任职务：大一战队队长
+担任职务：Beiluo_sect战队队长
 
 目前研究方向：加密算法，WEB代码审计，Check-in(bushi
 
