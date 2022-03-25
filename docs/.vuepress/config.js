@@ -21,7 +21,8 @@ module.exports = {
           '808',
           'KRISS-HDB',
           'HeyAspirin',
-          'QingNiao'
+          'QingNiao',
+          'XIAO'
         ]
       },
       sidebarDepth: 2
