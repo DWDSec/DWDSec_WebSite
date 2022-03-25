@@ -20,7 +20,8 @@ module.exports = {
           'nLesxw',
           '808',
           'KRISS-HDB',
-          'HeyAspirin'
+          'HeyAspirin',
+          'QingNiao'
         ]
       },
       sidebarDepth: 2
