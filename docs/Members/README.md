@@ -19,6 +19,7 @@ DWDSEC网络安全实验室，在校也称DWDSec社团\
 
 2. MISC成员
     - [808](../Members/808.md)
+    - [QingNiao](../Members/QingNiao.md)
 
 3. BINARY成员
     - [Yaoisss](../Members/Yaoisss.md)
