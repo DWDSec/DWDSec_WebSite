@@ -14,7 +14,7 @@ module.exports = {
         { text: '实验室文章', link: '/articles/' },
         { text: '实验室项目', link: '/projects/' },
         { text: '实验室成员', link: '/members/' }
-      ], 
+      ],
       sidebar: {
         "/members/":[
           '/members/',
@@ -29,7 +29,7 @@ module.exports = {
           'QingNiao',
           'XIAO'
         ]
-      }, 
+      },
       sidebarDepth: 2
     }
   }
