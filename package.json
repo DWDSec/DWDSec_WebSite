@@ -6,7 +6,20 @@
     "vuepress": "^2.0.0-beta.36"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs"
-  }
+  },
+  "name": "dwdsec_website",
+  "description": "This is DWDSec Network Security Laboratory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://172.16.4.131:3000/DWDSec/DWDSec_WebSite.git"
+  },
+  "author": "",
+  "license": "ISC"
 }

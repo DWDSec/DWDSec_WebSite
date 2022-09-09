@@ -1,6 +1,6 @@
 # XIAO
 
-<img :src="$withBase('/Member Avatar/XIAObaby.png')" alt="XIAObaby Avatar">
+<img :src="$withBase('/member_avatar/XIAObaby.png')" alt="XIAObaby Avatar">
 
  :::tip 简介
 逆向升级选手

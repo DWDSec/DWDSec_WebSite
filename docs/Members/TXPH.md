@@ -1,6 +1,6 @@
 # TXPH
 
-<img :src="$withBase('/Member Avatar/TXPH.gif')" alt="TXPH Avatar">
+<img :src="$withBase('/member_avatar/TXPH.gif')" alt="TXPH Avatar">
 
 ::: tip 一只渴望拿到Flag的Web狗
 :::
