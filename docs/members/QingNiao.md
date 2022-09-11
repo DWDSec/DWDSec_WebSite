@@ -1,6 +1,6 @@
 # QingNiao
 
-<img :src="$withBase('/Member Avatar/QingNiao.jpg')" alt="QingNiao Avatar">
+<img :src="$withBase('/member_avatar/QingNiao.jpg')" alt="QingNiao Avatar">
 
 ::: tip 简介
 

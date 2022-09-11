@@ -3,16 +3,21 @@ module.exports = {
     port: '80',
     // 站点配置
     lang: 'zh-CN',
-    title: 'DWDSEC网络安全实验室',
+    title: 'DWDSec网络安全实验室',
     description: 'Defend With Determination',
   
     // 主题和它的配置
     theme: '@vuepress/theme-default',
     themeConfig: {
-      logo: '/Member Avatar/DWDSEC_LOGO.png',
+      logo: '/member_avatar/DWDSEC_LOGO.png',
+      nav: [
+        { text: '实验室文章', link: '/articles/' },
+        { text: '实验室项目', link: '/projects/' },
+        { text: '实验室成员', link: '/members/' }
+      ],
       sidebar: {
-        "/Members/":[
-          '/Members/',
+        "/members/":[
+          '/members/',
           'Yaoisss',
           'TXPH',
           'SmallL_U',

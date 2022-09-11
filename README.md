@@ -1,6 +1,6 @@
 # About DWDSec Infomation
 
-This is DWDSEC Network Security Laboratory
+This is DWDSec Network Security Laboratory
 
 安装流程:
 
@@ -23,9 +23,9 @@ yarn docs:dev
 ```
 
 - docs
-    -- Member       //成员介绍
-    -- wp           //实验室文章
-    -- object       //实验室所开设的项目
+    -- members      //成员介绍
+    -- articles     //实验室文章
+    -- projects     //实验室所开设的项目
     -- .vuepress    //vuepress资源配置等文件
 
 ```

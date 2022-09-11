@@ -1,6 +1,6 @@
 # Juana_2u
 
-<img :src="$withBase('/Member Avatar/Juana_2u.jpg')" alt="Juana_2u Avatar">
+<img :src="$withBase('/member_avatar/Juana_2u.jpg')" alt="Juana_2u Avatar">
 
 ::: tip 简介
 连C++都不会的re手

@@ -1,6 +1,6 @@
 # HeyAspirin
 
-<img :src="$withBase('/Member Avatar/HeyAspirin.gif')" alt="HeyAspirin Avatar">
+<img :src="$withBase('/member_avatar/HeyAspirin.gif')" alt="HeyAspirin Avatar">
 
 ::: tip DWDSec战队跳湖职业选手，吃牛蛙顶级健将，国服签到题wp作者兼职Web手
 :::

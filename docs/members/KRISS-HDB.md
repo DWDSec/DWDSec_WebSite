@@ -1,6 +1,6 @@
 # KRISS_HDB
 
-<img :src="$withBase('/Member Avatar/KRISS_HDB.png')" alt="KRISS_HDB.png">
+<img :src="$withBase('/member_avatar/KRISS_HDB.png')" alt="KRISS_HDB.png">
 
 ::: tip DWDSec一级退堂鼓选手，签到题CV工程师，WEB扫描大师
 :::
