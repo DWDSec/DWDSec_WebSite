@@ -3,7 +3,7 @@ title: Yaoisss
 ---
 # Yaoisss
 
-<img :src="$withBase('/member_avatar/Yaoisss.png')" alt="Yaoisss Avatar">
+<img :src="$withBase('/member_avatar/Yaoisss.jpg')" alt="Yaoisss Avatar">
 
 ::: tip 简介
 \

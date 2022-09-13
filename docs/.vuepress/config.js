@@ -27,7 +27,10 @@ module.exports = {
           'KRISS-HDB',
           'HeyAspirin',
           'QingNiao',
-          'XIAO'
+          'XIAO',
+          'Crazy4Tech',
+          'TerryTao',
+          '@'
         ]
       },
       sidebarDepth: 2
