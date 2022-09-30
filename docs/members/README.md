@@ -17,6 +17,9 @@ DWDSec网络安全实验室，在校也称DWDSec网络安全社团\
     - [HeyAspirin](HeyAspirin.md)
     - [KRISS-HDB](KRISS-HDB.md)
     - [brown](brown.md)
+    - [Xcode.s](Xcode.s.md)
+    - [Mercury](Mercury.md)
+    - [33](33.md)
 
 2. MISC成员
     - [808](808.md)

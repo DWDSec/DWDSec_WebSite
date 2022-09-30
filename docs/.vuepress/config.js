@@ -33,7 +33,10 @@ module.exports = {
         '@',
         'XFAN',
         'brown',
-        'dreamer'
+        'dreamer',
+        'Xcode.s',
+        'Mercury',
+        '33'
       ]
     },
     sidebarDepth: 2
