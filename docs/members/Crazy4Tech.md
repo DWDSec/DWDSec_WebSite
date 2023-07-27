@@ -10,7 +10,7 @@
 
 Crazy for Tech!!!
 
->On my business card, I am a corporate president. <br>
->In my mind, I am a game developer. <br>
->But in my heart, I am a gamer. <br>
->— Satoru Iwata (1959–2015) <br>
+>On my business card, I am a corporate president. \
+>In my mind, I am a game developer. \
+>But in my heart, I am a gamer. \
+>— Satoru Iwata (1959–2015)

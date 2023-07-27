@@ -1,44 +1,61 @@
 module.exports = {
-  //端口
-  port: '80',
-  // 站点配置
-  lang: 'zh-CN',
-  title: 'DWDSec网络安全实验室',
-  description: 'Defend With Determination',
+    //端口
+    port: '80',
+    // 站点配置
+    lang: 'zh-CN',
+    title: 'DWDSec网络安全实验室',
+    description: 'Defend With Determination',
 
-  // 主题和它的配置
-  theme: '@vuepress/theme-default',
-  themeConfig: {
-    logo: '/member_avatar/DWDSEC_LOGO.png',
-    nav: [
-      { text: '实验室文章', link: '/articles/' },
-      { text: '实验室项目', link: '/projects/' },
-      { text: '实验室成员', link: '/members/' }
-    ],
-    sidebar: {
-      '/members/': [
-        '',
-        'Yaoisss',
-        'TXPH',
-        'SmallL_U',
-        'Juana_2u',
-        'nLesxw',
-        '808',
-        'KRISS-HDB',
-        'HeyAspirin',
-        'QingNiao',
-        'XIAO',
-        'Crazy4Tech',
-        'TerryTao',
-        '@',
-        'XFAN',
-        'brown',
-        'dreamer',
-        'Xcode.s',
-        'Mercury',
-        '33'
-      ]
+    // 主题和它的配置
+    theme: '@vuepress/theme-default',
+    themeConfig: {
+        logo: '/member_avatar/DWDSEC_LOGO.png',
+        nav: [
+            { text: '实验室文章', link: '/articles/' },
+            { text: '实验室项目', link: '/projects/' },
+            { text: '实验室成员', link: '/members/' },
+        ],
+        sidebar: {
+            '/members/': [
+                '', {
+                    title: 'Web成员',
+                    collapsable: true,
+                    children: [
+                        'TXPH',
+                        'SmallL_U',
+                        'nLesxw',
+                        'HeyAspirin',
+                        'KRISS-HDB',
+                        'brown',
+                        'Xcode.s',
+                        'Mercury',
+                        '33',
+                        'Ymhs',
+                    ]
+                }, {
+                    title: 'Misc成员',
+                    collapsable: true,
+                    children: [
+                        '808',
+                        'QingNiao',
+                        'TerryTao',
+                        'XFAN',
+                        'dreamer',
+                    ]
+                }, {
+                    title: 'Binary成员',
+                    collapsable: true,
+                    children: [
+                        'Yaoisss',
+                        'Juana_2u',
+                        'XIAO',
+                        'Crazy4Tech',
+                        '@',
+                        'diyun',
+                    ]
+                },
+            ],
+        },
+        sidebarDepth: 2,
     },
-    sidebarDepth: 2
-  }
 }
