@@ -27,7 +27,7 @@ module.exports = {
                         'HeyAspirin',
                         'KRISS-HDB',
                         'brown',
-                        'Xcode.s',
+                        'XCES',
                         'Mercury',
                         '33',
                         'Ymhs',

@@ -4,7 +4,7 @@ heroImage: /member_avatar/DWDSEC_LOGO.png
 heroText: DWDSec网络安全实验室
 tagline: Defend With Determination
 actionText: 加入我们
-actionLink: https://www.wjx.top/vm/Pv9WoUf.aspx#
+actionLink: https://www.wjx.top/vm/YMSNwxB.aspx#
 features:
   - title: MISC
     details: MISC 即 Miscellaneous 的缩写，意为杂项，涉及信息搜集、取证、编解码、加解密、隐写、图片处理、压缩包、编程等
