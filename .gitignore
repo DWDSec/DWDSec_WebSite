@@ -1,7 +1,29 @@
-node_modules
-.temp
-.cache
-package.json
-package-lock.json
-yarn.lock
-yarn-error.log
+# VuePress files
+**/.vuepress/.cache/
+**/.vuepress/.temp/
+# **/.vuepress/dist/
+
+# Dist files
+dist/
+
+# Test temp files
+**/__fixtures__/.temp/
+
+# Test coverage files
+coverage/
+
+# E2E temp files
+e2e/playwright-report/
+e2e/test-results/
+
+# Node modules
+node_modules/
+
+# MacOS Desktop Services Store
+.DS_Store
+
+# Log files
+*.log
+
+# Typescript build info
+*.tsbuildinfo

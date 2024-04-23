@@ -19,9 +19,9 @@ yarn docs:dev
 ## 目录结构说明
 ```
 - docs
-    -- members      //成员介绍
-    -- articles     //实验室文章
-    -- projects     //实验室所开设的项目
+    -- intro        //协会简介
+    -- teams        //协会战队
+    -- members      //协会成员
     -- .vuepress    //vuepress资源配置等文件
 ```
 
