@@ -10,6 +10,3 @@
 我爱ThinkPHP，我爱渗透，我爱代码审计，我爱乱七八糟的函数 呜呜呜
 
 小队官网：*[Beiluo_sect战队](http://dwdsec-finh.club/)*
-
-
-

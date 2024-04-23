@@ -10,6 +10,3 @@
 目前研究方向：ThinkPHP框架漏洞，代码审计（doge
 
 小队官网：*[Beiluo_sect战队](http://dwdsec-finh.club/)*
-
-
-
