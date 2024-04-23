@@ -4,16 +4,17 @@ Git repo of DWDSec official website
 
 ## 安装流程
 ```bash
-# 1. 安装node.js
+# 1. 安装Node.js（LTS版本）
 
-# 2. 安装yarn
-npm install --global yarn
+# 2. 将代码克隆到本地
+git clone https://github.com/DWDSec/dwdsec.github.io.git
+cd dwdsec.github.io
 
-# 3. 安装vuepress
-yarn add -D vuepress@next
+# 3. 安装项目依赖
+npm install
 
-# 4.运行官网
-yarn docs:dev
+# 4. 运行官网
+npm run docs:dev
 ```
 
 ## 目录结构说明
@@ -35,4 +36,12 @@ git commit -m "update"
 
 # 3. 上传
 git push
+```
+
+## 部署上线
+```bash
+# 1. 编译静态文件
+npm run docs:build
+
+# 2. 运行deploy.bat脚本（Linux用户请修改后缀名为.sh）
 ```
