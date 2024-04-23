@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "vuepress-theme-hope": "^2.0.0-rc.37",
     "yarn": "^1.22.18"
   },
   "devDependencies": {

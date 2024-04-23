@@ -1,5 +1,6 @@
 ---
 title: 协会简介
+sidebar: true
 ---
 
 # 协会简介
