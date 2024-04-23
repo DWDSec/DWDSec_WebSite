@@ -97,5 +97,7 @@ export default defineUserConfig({
         plugins: {
             search: true,
         },
+        lastUpdated: false,
+        contributors: false,
     }),
 })
