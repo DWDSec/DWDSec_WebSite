@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /logos/DWDSEC_LOGO.jpg
+heroImage: /logos/DWDSEC_LOGO.png
 heroText: DWDSec网络安全协会
 tagline: Defend With Determination
 actions:

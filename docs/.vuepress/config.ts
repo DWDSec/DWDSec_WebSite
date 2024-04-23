@@ -12,7 +12,7 @@ export default defineUserConfig({
         vuePluginOptions: {},
     }),
     theme: hopeTheme({
-        logo: '/logos/DWDSEC_LOGO.jpg',
+        logo: '/logos/DWDSEC_LOGO.png',
         navbar: [
             { text: '协会简介', link: '/intro/' },
             { text: '协会战队', link: '/teams/' },
