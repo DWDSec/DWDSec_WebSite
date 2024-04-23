@@ -1,6 +1,6 @@
 ---
 title: 协会战队
-sidebar: auto
+sidebar: true
 ---
 
 # 协会战队

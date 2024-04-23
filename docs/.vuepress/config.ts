@@ -1,7 +1,6 @@
 import { defineUserConfig } from 'vuepress';
 import { viteBundler } from '@vuepress/bundler-vite'
-import { defaultTheme } from '@vuepress/theme-default'
-import { searchPlugin } from '@vuepress/plugin-search'
+import { hopeTheme } from 'vuepress-theme-hope';
 
 export default defineUserConfig({
     port: 80,
@@ -12,8 +11,8 @@ export default defineUserConfig({
         viteOptions: {},
         vuePluginOptions: {},
     }),
-    theme: defaultTheme({
-        logo: '/logos/DWDSEC_LOGO.jpg',
+    theme: hopeTheme({
+        logo: '/logos/DWDSEC_LOGO.png',
         navbar: [
             { text: '协会简介', link: '/intro/' },
             { text: '协会战队', link: '/teams/' },
@@ -95,10 +94,10 @@ export default defineUserConfig({
                 },
             ],
         },
+        plugins: {
+            search: true,
+        },
         lastUpdated: false,
         contributors: false,
     }),
-    plugins: [
-        searchPlugin({}),
-    ],
 })
