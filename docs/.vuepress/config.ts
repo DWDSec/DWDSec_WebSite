@@ -21,9 +21,18 @@ export default defineUserConfig({
             {
                 text: '相关平台',
                 children: [
-                    { text: 'GitHub', link: 'https://github.com/DWDSec' },
-                    { text: '校园内部CTF平台', link: 'http://ctf.hyit.edu.cn/' },
-                    { text: '攻防世界', link: 'https://adworld.xctf.org.cn/teams/details?team_id=221500666&added=true' },
+                    {
+                        text: 'GitHub',
+                        link: 'https://github.com/DWDSec'
+                    },
+                    {
+                        text: '校园内部CTF平台',
+                        link: 'http://ctf.hyit.edu.cn/'
+                    },
+                    {
+                        text: '攻防世界',
+                        link: 'https://adworld.xctf.org.cn/teams/details?team_id=221500666&added=true'
+                    },
                 ],
             },
         ],
