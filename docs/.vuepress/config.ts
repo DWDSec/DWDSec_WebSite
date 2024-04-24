@@ -68,6 +68,7 @@ export default defineUserConfig({
                         '/members/WisdomGuardian/808.md',
                         '/members/WisdomGuardian/Yaoisss.md',
                         '/members/WisdomGuardian/QingNiao.md',
+                        '/members/WisdomGuardian/Link.md',
                     ],
                 },
                 {

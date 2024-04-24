@@ -39,9 +39,6 @@ git push
 ```
 
 ## 部署上线
-```bash
-# 1. 编译静态文件
-npm run docs:build
-
-# 2. 运行deploy.bat脚本（Linux用户请修改后缀名为.sh）
+```powershell
+./deploy.ps1
 ```
