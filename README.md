@@ -1,7 +1,7 @@
 # DWDSec_WebSite
 
-Git repo of DWDSec official website
-官网的git管理
+协会官网的代码仓库 \
+基于[VuePress v2](https://vuejs.press/zh/)和[VuePress Theme Hope v2](https://theme-hope.vuejs.press/zh/)构建
 
 ## 安装流程
 ```bash
@@ -21,10 +21,13 @@ npm run docs:dev
 ## 目录结构说明
 ```
 - docs
-    -- intro        //协会简介
-    -- teams        //协会战队
-    -- members      //协会成员
-    -- .vuepress    //vuepress资源配置等文件
+    - intro         // 协会简介
+    - teams         // 协会战队
+    - members       // 协会成员
+    - .vuepress
+        - dist      // 生成的静态文件夹（gh-pages分支）
+        - public    // 图片等静态资源
+        - config.ts // vuepress配置文件
 ```
 
 ## 修改好后提交代码
