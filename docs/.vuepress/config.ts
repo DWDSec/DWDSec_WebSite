@@ -51,6 +51,7 @@ export default defineUserConfig({
                         '/members/MatrixBreaker/nLesxw.md',
                         '/members/MatrixBreaker/HeyAspirin.md',
                         '/members/MatrixBreaker/Van.md',
+                        '/members/MatrixBreaker/Gilgamesh.md',
                     ],
                 },
                 {
