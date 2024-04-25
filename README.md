@@ -33,7 +33,7 @@ npm run docs:dev
 git add -A
 
 # 2. 提交说明信息
-git commit -m "update"
+git commit -m 'update'
 
 # 3. 上传
 git push
