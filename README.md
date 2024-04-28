@@ -43,6 +43,10 @@ git push
 ```
 
 ## 部署上线
-```powershell
+```bash
+# Windows
 ./deploy.ps1
+
+# Linux
+./deploy.sh
 ```
