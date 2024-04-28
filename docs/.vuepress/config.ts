@@ -35,6 +35,7 @@ export default defineUserConfig({
                 ],
             },
         ],
+        repo: 'https://github.com/DWDSec/dwdsec.github.io',
         sidebar: {
             '/members/': [
                 {
