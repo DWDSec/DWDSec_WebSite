@@ -78,6 +78,7 @@ export default defineUserConfig({
                     children: [
                         '/members/ShieldForge/Crazy4Tech.md',
                         '/members/ShieldForge/SmallL_U.md',
+                        '/members/ShieldForge/Ralasg.md',
                     ],
                 },
                 {
