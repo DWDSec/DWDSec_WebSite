@@ -1,17 +1,12 @@
 # TXPH
 
-<img :src="$withBase('/avatars/TXPH.gif')" alt="TXPH Avatar">
+<img :src="$withBase('/avatars/TXPH.jpg')" alt="TXPH Avatar">
 
-::: tip 一只渴望拿到Flag的Web狗
+::: tip 想要全栈orz
 :::
 
-担任职务：BeiluoSect战队队长
+目前研究方向：WEB漏洞挖掘、IOS逆向分析、电子取证
 
-目前研究方向：加密算法，WEB代码审计，Check-in(bushi
+未来研究方法：区块链安全、IOT安全
 
-未来研究方法：虚拟化容器技术（暂定）
-
-小队官网：*[BeiluoSect战队](http://dwdsec-finh.club/)*
-
-
-
+欢迎关注我的微信公众号：**不会编程的TXPH**
