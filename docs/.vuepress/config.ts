@@ -102,6 +102,7 @@ export default defineUserConfig({
         plugins: {
             search: true,
         },
+        docsDir: 'docs',
         lastUpdated: false,
         contributors: false,
     }),
