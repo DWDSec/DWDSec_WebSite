@@ -67,6 +67,7 @@ export default defineUserConfig({
                     text: '智鉴',
                     collapsible: true,
                     children: [
+                        '/members/WisdomGuardian/SNA001.md',
                         '/members/WisdomGuardian/808.md',
                         '/members/WisdomGuardian/Yaoisss.md',
                         '/members/WisdomGuardian/QingNiao.md',
