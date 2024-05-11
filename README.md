@@ -1,5 +1,4 @@
 # DWDSec_WebSite
-
 协会官网的代码仓库 \
 基于[VuePress v2](https://vuejs.press/zh/)和[VuePress Theme Hope v2](https://theme-hope.vuejs.press/zh/)构建
 
@@ -20,14 +19,26 @@ npm run docs:dev
 
 ## 目录结构说明
 ```
-- docs
-    - intro         // 协会简介
-    - teams         // 协会战队
-    - members       // 协会成员
-    - .vuepress
-        - dist      // 生成的静态文件夹（gh-pages分支）
-        - public    // 图片等静态资源
-        - config.ts // vuepress配置文件
+.
+├── docs
+│   ├── .vuepress
+│   │   ├── dist            # 生成的静态文件夹（gh-pages分支）
+│   │   ├── public          # 图片等静态资源
+│   │   │   ├── avatars     # 成员头图
+│   │   │   └── logos       # 协会和战队Logo
+│   │   └── config.ts       # Vuepress配置文件
+│   ├── intro               # 协会简介
+│   ├── teams               # 协会战队
+│   └── members             # 协会成员
+│       ├── MatrixBreaker   # 破阵成员
+│       ├── ReverseBlade    # 逆锋成员
+│       ├── WisdomGuardian  # 智鉴成员
+│       ├── ShieldForge     # 铸安成员
+│       └── others          # 其他成员
+├── .gitignore              # 不上传到代码仓库的文件和文件夹
+├── deploy.ps1              # Windows部署上线脚本
+├── deploy.sh               # macOS/Linux部署上线脚本
+└── README.md               # 项目说明（本文件）
 ```
 
 ## 修改好后提交代码
@@ -47,6 +58,6 @@ git push
 # Windows
 ./deploy.ps1
 
-# Linux
+# macOS/Linux
 ./deploy.sh
 ```
