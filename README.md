@@ -26,7 +26,7 @@ npm run docs:dev
 │   │   ├── public          # 图片等静态资源
 │   │   │   ├── avatars     # 成员头图
 │   │   │   └── logos       # 协会和战队Logo
-│   │   └── config.ts       # Vuepress配置文件
+│   │   └── config.ts       # VuePress配置文件
 │   ├── intro               # 协会简介
 │   ├── teams               # 协会战队
 │   └── members             # 协会成员

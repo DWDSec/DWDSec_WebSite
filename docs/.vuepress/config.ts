@@ -1,6 +1,6 @@
-import { defineUserConfig } from 'vuepress';
+import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
-import { hopeTheme } from 'vuepress-theme-hope';
+import { hopeTheme } from 'vuepress-theme-hope'
 
 export default defineUserConfig({
     port: 80,
@@ -9,7 +9,7 @@ export default defineUserConfig({
     description: 'Defend With Determination',
     bundler: viteBundler({
         viteOptions: {},
-        vuePluginOptions: {},
+        vuePluginOptions: {}
     }),
     theme: hopeTheme({
         logo: '/logos/DWDSEC_LOGO.png',
@@ -31,9 +31,9 @@ export default defineUserConfig({
                     {
                         text: '攻防世界',
                         link: 'https://adworld.xctf.org.cn/teams/details?team_id=221500666&added=true'
-                    },
-                ],
-            },
+                    }
+                ]
+            }
         ],
         repo: 'https://github.com/DWDSec/dwdsec.github.io',
         sidebar: {
@@ -54,7 +54,7 @@ export default defineUserConfig({
                         '/members/MatrixBreaker/Van.md',
                         '/members/MatrixBreaker/Gilgamesh.md',
                         '/members/MatrixBreaker/Nai.md',
-                    ],
+                    ]
                 },
                 {
                     text: '逆锋',
@@ -62,7 +62,7 @@ export default defineUserConfig({
                     children: [
                         '/members/ReverseBlade/Juana_2u.md',
                         '/members/ReverseBlade/XIAO.md',
-                    ],
+                    ]
                 },
                 {
                     text: '智鉴',
@@ -73,8 +73,8 @@ export default defineUserConfig({
                         '/members/WisdomGuardian/Yaoisss.md',
                         '/members/WisdomGuardian/QingNiao.md',
                         '/members/WisdomGuardian/Link.md',
-                        '/members/WisdomGuardian/L0ve5elf.md'
-                    ],
+                        '/members/WisdomGuardian/L0ve5elf.md',
+                    ]
                 },
                 {
                     text: '铸安',
@@ -83,7 +83,7 @@ export default defineUserConfig({
                         '/members/ShieldForge/Crazy4Tech.md',
                         '/members/ShieldForge/SmallL_U.md',
                         '/members/ShieldForge/Ralasg.md',
-                    ],
+                    ]
                 },
                 {
                     text: '其他成员',
@@ -98,15 +98,15 @@ export default defineUserConfig({
                         '/members/others/XFAN.md',
                         '/members/others/dreamer.md',
                         '/members/others/@.md',
-                    ],
-                },
-            ],
+                    ]
+                }
+            ]
         },
         plugins: {
-            search: true,
+            search: true
         },
         docsDir: 'docs',
         lastUpdated: false,
-        contributors: false,
-    }),
+        contributors: false
+    })
 })
