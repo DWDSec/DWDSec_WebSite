@@ -44,60 +44,65 @@ export default defineUserConfig({
                 },
                 {
                     text: '破阵',
+                    prefix: '/members/MatrixBreaker/',
                     collapsible: true,
                     children: [
-                        '/members/MatrixBreaker/TXPH.md',
-                        '/members/MatrixBreaker/XCES.md',
-                        '/members/MatrixBreaker/Diyun.md',
-                        '/members/MatrixBreaker/nLesxw.md',
-                        '/members/MatrixBreaker/HeyAspirin.md',
-                        '/members/MatrixBreaker/Van.md',
-                        '/members/MatrixBreaker/Gilgamesh.md',
-                        '/members/MatrixBreaker/Nai.md',
+                        'TXPH',
+                        'XCES',
+                        'Diyun',
+                        'nLesxw',
+                        'HeyAspirin',
+                        'Van',
+                        'Gilgamesh',
+                        'Nai',
                     ]
                 },
                 {
                     text: '逆锋',
+                    prefix: '/members/ReverseBlade/',
                     collapsible: true,
                     children: [
-                        '/members/ReverseBlade/Juana_2u.md',
-                        '/members/ReverseBlade/XIAO.md',
+                        'Juana_2u',
+                        'XIAO',
                     ]
                 },
                 {
                     text: '智鉴',
+                    prefix: '/members/WisdomGuardian/',
                     collapsible: true,
                     children: [
-                        '/members/WisdomGuardian/SNA001.md',
-                        '/members/WisdomGuardian/808.md',
-                        '/members/WisdomGuardian/Yaoisss.md',
-                        '/members/WisdomGuardian/QingNiao.md',
-                        '/members/WisdomGuardian/Link.md',
-                        '/members/WisdomGuardian/L0ve5elf.md',
+                        'SNA001',
+                        '808',
+                        'Yaoisss',
+                        'QingNiao',
+                        'Link',
+                        'L0ve5elf',
                     ]
                 },
                 {
                     text: '铸安',
+                    prefix: '/members/ShieldForge/',
                     collapsible: true,
                     children: [
-                        '/members/ShieldForge/Crazy4Tech.md',
-                        '/members/ShieldForge/SmallL_U.md',
-                        '/members/ShieldForge/Ralasg.md',
+                        'Crazy4Tech',
+                        'SmallL_U',
+                        'Ralasg',
                     ]
                 },
                 {
                     text: '其他成员',
+                    prefix: '/members/others/',
                     collapsible: true,
                     children: [
-                        '/members/others/KRISS-HDB.md',
-                        '/members/others/brown.md',
-                        '/members/others/Mercury.md',
-                        '/members/others/33.md',
-                        '/members/others/Ymhs.md',
-                        '/members/others/TerryTao.md',
-                        '/members/others/XFAN.md',
-                        '/members/others/dreamer.md',
-                        '/members/others/@.md',
+                        'KRISS-HDB',
+                        'brown',
+                        'Mercury',
+                        '33',
+                        'Ymhs',
+                        'TerryTao',
+                        'XFAN',
+                        'dreamer',
+                        '@',
                     ]
                 }
             ]
@@ -106,7 +111,10 @@ export default defineUserConfig({
             search: true
         },
         docsDir: 'docs',
+        pageInfo: false,
         lastUpdated: false,
-        contributors: false
+        contributors: false,
+        prevLink: false,
+        nextLink: false
     })
 })
