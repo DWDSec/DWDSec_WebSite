@@ -13,7 +13,7 @@
     "docs:build": "vuepress build docs"
   },
   "name": "dwdsec_website",
-  "description": "This is DWDSec Network Security Laboratory",
+  "description": "协会官网的代码仓库",
   "version": "1.0.0",
   "main": "index.js",
   "directories": {
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DWDSec/dwdsec.github.io.git"
+    "url": "https://github.com/DWDSec/DWDSec_WebSite.git"
   },
   "author": "",
   "license": "ISC"

@@ -1,25 +1,10 @@
 # VuePress files
 **/.vuepress/.cache/
 **/.vuepress/.temp/
-
-# Test temp files
-**/__fixtures__/.temp/
-
-# Test coverage files
-coverage/
-
-# E2E temp files
-e2e/playwright-report/
-e2e/test-results/
+**/.vuepress/dist/
 
 # Node modules
 node_modules/
 
-# MacOS Desktop Services Store
+# macOS Desktop Services Store
 .DS_Store
-
-# Log files
-*.log
-
-# Typescript build info
-*.tsbuildinfo

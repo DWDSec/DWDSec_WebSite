@@ -7,8 +7,8 @@
 # 1. 安装Node.js（LTS版本）
 
 # 2. 将代码克隆到本地
-git clone https://github.com/DWDSec/dwdsec.github.io.git
-cd dwdsec.github.io
+git clone https://github.com/DWDSec/DWDSec_WebSite.git
+cd DWDSec_WebSite
 
 # 3. 安装项目依赖
 npm install
