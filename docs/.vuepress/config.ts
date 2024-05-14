@@ -1,17 +1,14 @@
 import { defineUserConfig } from 'vuepress'
-import { viteBundler } from '@vuepress/bundler-vite'
 import { hopeTheme } from 'vuepress-theme-hope'
+import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
     port: 80,
     lang: 'zh-CN',
     title: 'DWDSec网络安全协会',
     description: 'Defend With Determination',
-    bundler: viteBundler({
-        viteOptions: {},
-        vuePluginOptions: {}
-    }),
     theme: hopeTheme({
+        favicon: '/logos/DWDSEC_LOGO.png',
         logo: '/logos/DWDSEC_LOGO.png',
         navbar: [
             { text: '协会简介', link: '/intro/' },
@@ -107,14 +104,16 @@ export default defineUserConfig({
                 }
             ]
         },
-        plugins: {
-            search: true
-        },
-        docsDir: 'docs',
+        breadcrumb: false,
         pageInfo: false,
         lastUpdated: false,
         contributors: false,
         prevLink: false,
-        nextLink: false
-    })
+        nextLink: false,
+        docsDir: 'docs',
+        plugins: {
+            search: true
+        }
+    }),
+    bundler: viteBundler()
 })
