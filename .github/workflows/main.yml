@@ -2,9 +2,11 @@ name: build-deploy
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   build-and-deploy:
@@ -30,14 +32,9 @@ jobs:
     - name: Build
       run: npm run docs:build
 
-    - name: Commit and Push
-      run: |-
-        cd docs/.vuepress/dist
-        echo -n 'dwdsec.top' > CNAME
-        git init
-        git add -A
-        git config --global user.name 'Crazy4Tech'        
-        git config --global user.email '80889440+Crazy4Tech@users.noreply.github.com'
-        git commit -m 'deploy'
-        git remote add origin 'git@github.com:DWDSec/DWDSec_WebSite.git'
-        git push -f origin master:gh-pages
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v4
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: docs/.vuepress/dist
