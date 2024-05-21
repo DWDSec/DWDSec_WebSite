@@ -68,9 +68,9 @@ export default defineUserConfig({
                     prefix: '/members/WisdomGuardian/',
                     collapsible: true,
                     children: [
+                        'Yaoisss',
                         'SNA001',
                         '808',
-                        'Yaoisss',
                         'QingNiao',
                         'Link',
                         'L0ve5elf',
