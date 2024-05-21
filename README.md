@@ -53,7 +53,7 @@ git commit -m 'update'
 git push
 ```
 
-## 部署上线
+## 手动部署上线
 ```bash
 # Windows
 ./deploy.ps1
