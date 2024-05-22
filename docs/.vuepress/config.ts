@@ -104,12 +104,12 @@ export default defineUserConfig({
                 }
             ]
         },
-        breadcrumb: false,
-        pageInfo: false,
-        lastUpdated: false,
-        contributors: false,
-        prevLink: false,
-        nextLink: false,
+        // breadcrumb: false,
+        // pageInfo: false,
+        // lastUpdated: false,
+        // contributors: false,
+        // prevLink: false,
+        // nextLink: false,
         docsDir: 'docs',
         plugins: {
             search: true
