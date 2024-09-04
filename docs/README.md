@@ -8,7 +8,7 @@ actions:
     link: /intro/
     type: primary
   - text: 加入我们
-    link: https://www.wjx.top/vm/YMSNwxB.aspx#
+    link: https://mp.weixin.qq.com/s/ETi23oIiC-INQ0nGHpIN-g
     type: secondary
 features:
   - title: 破阵（MatrixBreaker）
