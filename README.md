@@ -36,8 +36,8 @@ npm run docs:dev
 │       ├── ShieldForge     # 铸安成员
 │       └── others          # 其他成员
 ├── .gitignore              # 不上传到代码仓库的文件和文件夹
-├── deploy.ps1              # Windows部署上线脚本
-├── deploy.sh               # macOS/Linux部署上线脚本
+├── deploy.ps1              # PowerShell部署上线脚本
+├── deploy.sh               # Shell部署上线脚本
 └── README.md               # 项目说明（本文件）
 ```
 
@@ -55,9 +55,9 @@ git push
 
 ## 手动部署上线
 ```bash
-# Windows
+# PowerShell
 ./deploy.ps1
 
-# macOS/Linux
+# Shell
 ./deploy.sh
 ```
