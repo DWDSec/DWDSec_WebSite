@@ -27,5 +27,6 @@ features:
     details: 结合铸造和安全的概念，寓意战队致力于安全开发和算法研究，如同铸造安全之器，守护网络安全
     icon: /logos/ShieldForge.jpg
     link: /teams/#铸安
-footer: Copyright © 2021-present DWDSec
+copyright: Copyright © 2021-present DWDSec
+footer: $part3 = "DWDSec!}";
 ---
