@@ -4,7 +4,7 @@
 
 ## 安装流程
 ```bash
-# 1. 安装Node.js（LTS版本）
+# 1. 安装Node.js
 
 # 2. 将代码克隆到本地
 git clone https://github.com/DWDSec/DWDSec_WebSite.git
