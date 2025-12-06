@@ -28,5 +28,4 @@ features:
     icon: /logos/ShieldForge.jpg
     link: /teams/#铸安
 copyright: Copyright © 2021-present DWDSec
-footer: $part3 = "DWDSec!}";
 ---

@@ -61,5 +61,3 @@ git push
 # Shell
 ./deploy.sh
 ```
-
-part2 = '_to_'
